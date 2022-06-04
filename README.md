@@ -11,7 +11,7 @@ When the user clicks on the "Send" button, a modal dialog is displayed if there 
 # Technical Design
 The Outlook Add-in includes two basic components: an XML manifest file and a Web Application.
 
-<img src="./documentation/Picture1.PNG" alt="flow"/>
+<img src="./documentation/Picture1.png" alt="components"/>
 <br />
 
 The manifest defines various settings, including how the add-in integrates with Office clients, the URL location of the Web Application and the required permissions.
