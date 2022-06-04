@@ -1,0 +1,52 @@
+body {
+    /* background-color: rgb(253, 248, 223); */
+    overflow: hidden;
+    /* margin: 0; */
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0px 15px 5px 15px;
+    /* height: 90px; */
+    /* width: 480px; */
+    /* width: 100%; */
+    /* background-color: rgb(208, 249, 253); */
+}
+
+.sc-title {
+    text-align: center;
+}
+
+/* On screens that are 503px or less */
+@media screen and (max-width: 503px) {
+    body {
+        /* background-color: blue; */
+        overflow: hidden;
+    }
+
+    section {
+        width: 100%;
+        margin: 0px;
+        /* background-color: blue; */
+    }
+
+    section .ms-Dialog-actions {
+        /* display: inline-block; */
+        text-align: center;
+    }
+
+    section .ms-font-xl {
+        font-size: 19px;
+    }
+}
+
+/* On screens with a height lower than 803px or less */
+@media screen and (max-height: 80px) {
+    .sc-title {
+        display: none;
+    }
+}

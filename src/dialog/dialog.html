@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Check External Addresses</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+    <!-- For more information on Fabric-JS, visit https://developer.microsoft.com/en-us/fabric-js/getstarted/getstarted. -->
+    <link rel="stylesheet"
+        href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.min.css" />
+    <link rel="stylesheet"
+        href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.components.min.css" />
+    <script src="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/js/fabric.min.js"></script>
+
+    <!-- Template styles -->
+    <link href="dialog.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body class="ms-font-l">
+    <main>
+        <section class="ms-font-m ms-fontColor-neutralPrimary">
+            <div class="ms-font-xl sc-title">There are recipients outside of your organization</div>
+            <div class="ms-Dialog-actions">
+                <div class="ms-Dialog-actionsRight">
+                    <button class="ms-Dialog-action ms-Button ms-Button--primary" id="send-approved">
+                        <span class="ms-Button-label">Send Anyway</span>
+                    </button>
+                    <button class="ms-Dialog-action ms-Button" id="send-rejected">
+                        <span class="ms-Button-label">Don't Send</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <script type="text/javascript" src="temp.js"></script> -->
+</body>
+
+</html>
