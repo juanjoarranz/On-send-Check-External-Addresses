@@ -1,5 +1,5 @@
 # On-send-Check-External-Addresses Outlook Add-in
-This Outlook Add-in objecitve is to notify users before sending emails to recipients outside of the organization.
+This Outlook Add-in notifies users before sending emails to recipients outside of the organization.
 
 When the user clicks on the "Send" button, a modal dialog is displayed if there is any external recipient. The user may choose the send it anyway or remove the external addresses before the sending.
 
